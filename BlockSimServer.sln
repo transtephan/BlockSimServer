@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockSimServer", "BlockSimServer\BlockSimServer.csproj", "{53936151-F3B2-4A4F-B70A-2EE273C2A79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{C900249B-65C4-4221-9745-0D0D2C779FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53936151-F3B2-4A4F-B70A-2EE273C2A79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53936151-F3B2-4A4F-B70A-2EE273C2A79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53936151-F3B2-4A4F-B70A-2EE273C2A79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53936151-F3B2-4A4F-B70A-2EE273C2A79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C900249B-65C4-4221-9745-0D0D2C779FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C900249B-65C4-4221-9745-0D0D2C779FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C900249B-65C4-4221-9745-0D0D2C779FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C900249B-65C4-4221-9745-0D0D2C779FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {951AEAB5-D73F-40C1-A280-680C2FD1E2A6}
+	EndGlobalSection
+EndGlobal
