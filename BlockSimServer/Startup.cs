@@ -59,7 +59,7 @@ namespace BlockSimServer
                 while(!result.CloseStatus.HasValue)
                 {
                     string msg = Encoding.UTF8.GetString(new ArraySegment<byte>(buffer, 0, result.Count));
-                    Console.WriteLine($"Client's: {msg}");
+                    Console.WriteLine($"Client's:\n{msg}");
                     await webSocket.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes($"Server says: {DateTime.Now}")), result.MessageType, result.EndOfMessage, System.Threading.CancellationToken.None);
                     result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), System.Threading.CancellationToken.None);
                     //Console.WriteLine(result);
